@@ -24,7 +24,7 @@ public class GameManager : MonoBehaviour
         {
             currentTime -= Time.deltaTime;
             currentTime = Mathf.Max(currentTime, 0);
-            timerText.text = "Time: " + Mathf.Ceil(currentTime).ToString();
+           // timerText.text = "Time: " + Mathf.Ceil(currentTime).ToString();
             // タイマーが0になったらGameOverシーンに遷移
             if (currentTime <= 0)
             {
